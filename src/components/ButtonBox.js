@@ -2,6 +2,7 @@ import { Grid } from "@material-ui/core";
 import React, { Children, cloneElement, isValidElement } from "react";
 
 export default function ButtonBox(props) {
+    console.log(props);
     return (
         <Grid
             container
